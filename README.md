@@ -1,4 +1,4 @@
-# Fine-tuning GPT for Style Completion 
+# Fine-Tuning GPT for Question Answering and Style Completion
 
 GPT (Generative Pre-trained Transformer) undergoes pre-training using a large text corpus called BookCorpus, comprised of 4.5 GB of text from 7,000 unpublished books. During pre-training, the model learns language patterns by predicting the next word in a sequence. After pre-training, GPT can be fine-tuned for specific tasks using task-specific datasets, adjusting parameters for tasks like classification or question answering. OpenAI has iteratively improved the GPT architecture, introducing models like GPT-2, GPT-3, GPT-3.5, and GPT-4, each trained on larger datasets with increased capacities. The widespread adoption of GPT models has significantly advanced natural language processing tasks in research and industry. Only GPT-2 is freely available on [HuggingFace](https://huggingface.co/gpt2). In this notebook, first `gpt2` few-shot learning is applied for sentiment analysis, question-answering and text summarization. Next, `gpt2` model is fine-tuned for 
 "style completion", which refers to the ability of the model to generate text in a specific style.
